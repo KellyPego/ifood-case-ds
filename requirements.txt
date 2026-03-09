@@ -1,0 +1,11 @@
+# Instalar no notebook: %pip install lightgbm shap scikit-learn optuna optuna-integration[sklearn]
+# Ambiente: Databricks Serverless 14.x/15.x
+
+lightgbm>=4.3,<5.0
+shap>=0.45,<0.50
+scikit-learn>=1.4,<2.0
+optuna>=3.6,<4.0
+optuna-integration[sklearn]>=3.6,<4.0
+
+# Já disponível no cluster (não reinstalar):
+# pyspark, pandas, numpy, matplotlib, seaborn
